@@ -98,18 +98,15 @@ LIBS:Worldsemi
 LIBS:Xicor
 LIBS:zetex
 LIBS:Zilog
-LIBS:cardslot
 LIBS:esp32-wrover-v3
 LIBS:lm2596
 LIBS:mcp73831
 LIBS:MOSFET-P
 LIBS:OPL-Inductor
-LIBS:sim800c
 LIBS:tc1264
 LIBS:neo-6m
 LIBS:Sim800c
 LIBS:sp1001
-LIBS:sim_card_holder
 LIBS:esp32-gateway-hw-cache
 EELAYER 25 0
 EELAYER END

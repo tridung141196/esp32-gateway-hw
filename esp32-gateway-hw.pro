@@ -1,4 +1,4 @@
-update=Thứ ba, 10 Tháng mười Năm 2017 14:23:43 ICT
+update=Thứ tư, 11 Tháng mười Năm 2017 02:04:43 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -159,3 +159,6 @@ LibName127=lib/OPL-Inductor
 LibName128=lib/sim800c
 LibName129=lib/tc1264
 LibName130=lib/footprint.pretty/neo-6m
+LibName131=lib/Sim800c
+LibName132=lib/sim_card_holder
+LibName133=lib/sp1001
