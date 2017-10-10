@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:esp32-gateway-hw-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -54,15 +55,10 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic_symbols
 LIBS:hc11
-LIBS:infineon
-LIBS:intersil
 LIBS:ir
 LIBS:Lattice
 LIBS:leds
-LIBS:LEM
-LIBS:logic_programmable
 LIBS:maxim
 LIBS:mechanical
 LIBS:microchip_dspic33dsc
@@ -87,7 +83,6 @@ LIBS:pspice
 LIBS:references
 LIBS:relays
 LIBS:rfcom
-LIBS:RFSolutions
 LIBS:sensors
 LIBS:silabs
 LIBS:stm8
@@ -103,12 +98,21 @@ LIBS:Worldsemi
 LIBS:Xicor
 LIBS:zetex
 LIBS:Zilog
+LIBS:cardslot
+LIBS:esp32-wrover-v3
+LIBS:lm2596
+LIBS:mcp73831
+LIBS:MOSFET-P
+LIBS:OPL-Inductor
+LIBS:sim800c
+LIBS:tc1264
+LIBS:neo-6m
 LIBS:esp32-gateway-hw-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -607,4 +611,16 @@ Wire Notes Line
 	1850 5600 1850 1150
 Wire Notes Line
 	1850 1150 2200 1150
+$Sheet
+S 9000 4000 650  250 
+U 59DC7F9C
+F0 "Sheet59DC7F9B" 60
+F1 "module_GPS.sch" 60
+$EndSheet
+$Sheet
+S 9500 2900 900  250 
+U 59DC8035
+F0 "Sheet59DC8034" 60
+F1 "module_sim800c.sch" 60
+$EndSheet
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:esp32-gateway-hw-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,6 +29,83 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
+LIBS:Symbols_EN60617_13Mar2013
+LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
+LIBS:Symbols_ICs-Diskrete_RevD10
+LIBS:Symbols_ICs-Opto_RevB_16Sep2013
+LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
+LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
+LIBS:Symbols_Socket-DIN41612_RevA
+LIBS:Symbols_Transformer-Diskrete_RevA
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
+LIBS:cardslot
+LIBS:esp32-wrover-v3
+LIBS:lm2596
+LIBS:mcp73831
+LIBS:MOSFET-P
+LIBS:OPL-Inductor
+LIBS:sim800c
+LIBS:tc1264
 LIBS:neo-6m
 LIBS:esp32-gateway-hw-cache
 EELAYER 25 0
@@ -213,9 +291,11 @@ $EndComp
 Text GLabel 3800 3400 1    60   Input ~ 0
 3v3
 $Comp
-L Conn_01x05 J?
+L CONN_01X05 J?
 U 1 1 59DC70F2
 P 3500 4500
+AR Path="/59DC70F2" Ref="J?"  Part="1" 
+AR Path="/59DC7F9C/59DC70F2" Ref="J?"  Part="1" 
 F 0 "J?" H 3500 4800 50  0000 C CNN
 F 1 "Conn_01x05" H 3500 4200 50  0000 C CNN
 F 2 "" H 3500 4500 50  0001 C CNN

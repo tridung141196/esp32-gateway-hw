@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:esp32-gateway-hw-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -98,13 +99,20 @@ LIBS:Xicor
 LIBS:zetex
 LIBS:Zilog
 LIBS:cardslot
+LIBS:esp32-wrover-v3
+LIBS:lm2596
+LIBS:mcp73831
+LIBS:MOSFET-P
+LIBS:OPL-Inductor
 LIBS:sim800c
+LIBS:tc1264
+LIBS:neo-6m
 LIBS:esp32-gateway-hw-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
