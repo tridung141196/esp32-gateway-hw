@@ -261,7 +261,7 @@ Wire Wire Line
 	1000 3450 1000 3300
 Wire Wire Line
 	1000 3000 1000 2900
-Text GLabel 2150 2900 1    60   BiDi ~ 0
+Text GLabel 2150 3200 2    60   BiDi ~ 0
 EN
 $Comp
 L R R4
@@ -313,8 +313,6 @@ F 3 "" H 1750 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1750 2800 1750 2850
-Wire Wire Line
-	2150 2900 2150 3200
 Wire Wire Line
 	2150 3200 1750 3200
 Connection ~ 1750 3200
