@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:esp32-wrover-v3
 LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LIBS:Symbols_EN60617_13Mar2013
 LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
@@ -55,10 +56,15 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
+LIBS:graphic_symbols
 LIBS:hc11
+LIBS:infineon
+LIBS:intersil
 LIBS:ir
 LIBS:Lattice
 LIBS:leds
+LIBS:LEM
+LIBS:logic_programmable
 LIBS:maxim
 LIBS:mechanical
 LIBS:microchip_dspic33dsc
@@ -83,6 +89,7 @@ LIBS:pspice
 LIBS:references
 LIBS:relays
 LIBS:rfcom
+LIBS:RFSolutions
 LIBS:sensors
 LIBS:silabs
 LIBS:stm8
@@ -98,12 +105,23 @@ LIBS:Worldsemi
 LIBS:Xicor
 LIBS:zetex
 LIBS:Zilog
-LIBS:esp32-wrover-v3
+LIBS:CP2102
+LIBS:ESP8266
+LIBS:esp-uno
+LIBS:esp-wroom-32
+LIBS:microsd_socket
+LIBS:microsd_spi_cd
+LIBS:MOSFET-N
+LIBS:MOSFET-P
+LIBS:open-project
+LIBS:tc1264
+LIBS:tom_kicad
+LIBS:usb-b
+LIBS:usb_mini_b
+LIBS:w_device
 LIBS:lm2596
 LIBS:mcp73831
-LIBS:MOSFET-P
 LIBS:OPL-Inductor
-LIBS:tc1264
 LIBS:neo-6m
 LIBS:Sim800c
 LIBS:sp1001
@@ -191,9 +209,11 @@ F 3 "" H 4250 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LEMO2 J5
+L LEMO2-RESCUE-esp32-gateway-hw J5
 U 1 1 59DC618A
 P 3700 4000
+AR Path="/59DC618A" Ref="J5"  Part="1" 
+AR Path="/59DC8035/59DC618A" Ref="J5"  Part="1" 
 F 0 "J5" H 3700 4200 50  0000 C CNN
 F 1 "ANTEN" H 3700 3800 50  0000 C CNN
 F 2 "" H 3700 4000 50  0001 C CNN
