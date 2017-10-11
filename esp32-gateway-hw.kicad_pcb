@@ -3,7 +3,7 @@
   (general
     (links 164)
     (no_connects 0)
-    (area 75.057 66.159428 155.003501 154.888001)
+    (area 75.807499 75.235999 154.062501 154.888001)
     (thickness 1.6)
     (drawings 6)
     (tracks 814)
@@ -14,30 +14,30 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
-    (32 B.Adhes user)
-    (33 F.Adhes user)
-    (34 B.Paste user)
-    (35 F.Paste user)
-    (36 B.SilkS user)
-    (37 F.SilkS user)
-    (38 B.Mask user)
-    (39 F.Mask user)
-    (40 Dwgs.User user)
-    (41 Cmts.User user)
-    (42 Eco1.User user)
-    (43 Eco2.User user)
+    (32 B.Adhes user hide)
+    (33 F.Adhes user hide)
+    (34 B.Paste user hide)
+    (35 F.Paste user hide)
+    (36 B.SilkS user hide)
+    (37 F.SilkS user hide)
+    (38 B.Mask user hide)
+    (39 F.Mask user hide)
+    (40 Dwgs.User user hide)
+    (41 Cmts.User user hide)
+    (42 Eco1.User user hide)
+    (43 Eco2.User user hide)
     (44 Edge.Cuts user)
-    (45 Margin user)
-    (46 B.CrtYd user)
-    (47 F.CrtYd user)
-    (48 B.Fab user)
-    (49 F.Fab user)
+    (45 Margin user hide)
+    (46 B.CrtYd user hide)
+    (47 F.CrtYd user hide)
+    (48 B.Fab user hide)
+    (49 F.Fab user hide)
   )
 
   (setup
-    (last_trace_width 0.9)
+    (last_trace_width 0.254)
     (user_trace_width 0.254)
     (user_trace_width 0.3)
     (user_trace_width 0.5)
@@ -337,7 +337,7 @@
     )
   )
 
-  (module Capacitors_SMD:CP_Elec_4x4.5 (layer F.Cu) (tedit 58AA85E3) (tstamp 59DDF465)
+  (module Capacitors_SMD:CP_Elec_4x4.5 (layer F.Cu) (tedit 59DE3AAB) (tstamp 59DDF465)
     (at 106.658 111.125 180)
     (descr "SMT capacitor, aluminium electrolytic, 4x4.5")
     (path /59DDC323/59DC7605)
@@ -345,7 +345,7 @@
     (fp_text reference C13 (at 0 3.58 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 680uF (at 0 -3.45 360) (layer F.Fab)
+    (fp_text value 680uF (at 0 -3.45 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 0.1 2.1) (layer F.Fab) (width 0.1))
@@ -387,7 +387,7 @@
     )
   )
 
-  (module LEDs:LED_D3.0mm_FlatTop (layer F.Cu) (tedit 5880A862) (tstamp 59DDBB8E)
+  (module LEDs:LED_D3.0mm_FlatTop (layer F.Cu) (tedit 59DE3AE9) (tstamp 59DDBB8E)
     (at 147.574 128.016 270)
     (descr "LED, Round, FlatTop, diameter 3.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-47XEC(Ver.9A).pdf")
     (tags "LED Round FlatTop diameter 3.0mm 2 pins")
@@ -395,7 +395,7 @@
     (fp_text reference D8 (at 1.27 -2.96 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 1.27 2.96 270) (layer F.Fab)
+    (fp_text value LED (at 1.27 2.96 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 1.27 0) (end -0.23 -1.16619) (angle 284.3) (layer F.Fab) (width 0.1))
@@ -422,7 +422,7 @@
     )
   )
 
-  (module LEDs:LED_D3.0mm_FlatTop (layer F.Cu) (tedit 5880A862) (tstamp 59DDBB88)
+  (module LEDs:LED_D3.0mm_FlatTop (layer F.Cu) (tedit 59DE3AE6) (tstamp 59DDBB88)
     (at 147.574 133.604 270)
     (descr "LED, Round, FlatTop, diameter 3.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-47XEC(Ver.9A).pdf")
     (tags "LED Round FlatTop diameter 3.0mm 2 pins")
@@ -430,7 +430,7 @@
     (fp_text reference D7 (at 1.27 -2.96 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 1.27 2.96 270) (layer F.Fab)
+    (fp_text value LED (at 1.27 2.96 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 1.27 0) (end -0.23 -1.16619) (angle 284.3) (layer F.Fab) (width 0.1))
@@ -457,7 +457,7 @@
     )
   )
 
-  (module LEDs:LED_D3.0mm_FlatTop (layer F.Cu) (tedit 5880A862) (tstamp 59DDBB9A)
+  (module LEDs:LED_D3.0mm_FlatTop (layer F.Cu) (tedit 59DE3AE3) (tstamp 59DDBB9A)
     (at 147.32 139.192 270)
     (descr "LED, Round, FlatTop, diameter 3.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-47XEC(Ver.9A).pdf")
     (tags "LED Round FlatTop diameter 3.0mm 2 pins")
@@ -465,7 +465,7 @@
     (fp_text reference D10 (at 1.27 -2.96 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 1.27 2.96 270) (layer F.Fab)
+    (fp_text value LED (at 1.27 2.96 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 1.27 0) (end -0.23 -1.16619) (angle 284.3) (layer F.Fab) (width 0.1))
@@ -492,7 +492,7 @@
     )
   )
 
-  (module LEDs:LED_D3.0mm_FlatTop (layer F.Cu) (tedit 5880A862) (tstamp 59DDBB76)
+  (module LEDs:LED_D3.0mm_FlatTop (layer F.Cu) (tedit 59DE3AEC) (tstamp 59DDBB76)
     (at 147.574 122.428 270)
     (descr "LED, Round, FlatTop, diameter 3.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-47XEC(Ver.9A).pdf")
     (tags "LED Round FlatTop diameter 3.0mm 2 pins")
@@ -500,7 +500,7 @@
     (fp_text reference D4 (at 1.27 -2.96 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 1.27 2.96 270) (layer F.Fab)
+    (fp_text value LED (at 1.27 2.96 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 1.27 0) (end -0.23 -1.16619) (angle 284.3) (layer F.Fab) (width 0.1))
@@ -527,7 +527,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59DDD4D2) (tstamp 59DDBBA2)
+  (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59DE3AB1) (tstamp 59DDBBA2)
     (at 91.948 132.334 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -535,7 +535,7 @@
     (fp_text reference J2 (at 0 -2.33 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x04 (at 0 9.95 90) (layer F.Fab)
+    (fp_text value Conn_01x04 (at 0 9.95 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.635 -1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))
@@ -754,7 +754,7 @@
     )
   )
 
-  (module footprint:SMA_Straight (layer F.Cu) (tedit 58C301F2) (tstamp 59DDBAE6)
+  (module footprint:SMA_Straight (layer F.Cu) (tedit 59DE3ABB) (tstamp 59DDBAE6)
     (at 103.124 147.32)
     (descr "SMA pcb through hole jack")
     (tags "SMA THT Jack Straight")
@@ -762,7 +762,7 @@
     (fp_text reference AE1 (at 0 -5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Antenna (at 0 5) (layer F.Fab)
+    (fp_text value Antenna (at 0 5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 2.03 -3.05) (end 3.05 -3.05) (layer F.Fab) (width 0.1))
@@ -1103,7 +1103,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-123 (layer F.Cu) (tedit 58645DC7) (tstamp 59DDBB6A)
+  (module Diodes_SMD:D_SOD-123 (layer F.Cu) (tedit 59DE3AA5) (tstamp 59DDBB6A)
     (at 86.868 122.428 180)
     (descr SOD-123)
     (tags SOD-123)
@@ -1112,7 +1112,7 @@
     (fp_text reference D2 (at 0 -2 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 0 2.1 180) (layer F.Fab)
+    (fp_text value 1N4148 (at 0 2.1 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -1147,7 +1147,7 @@
     )
   )
 
-  (module Diodes_SMD:D_1206 (layer F.Cu) (tedit 590CEAF5) (tstamp 59DDBB70)
+  (module Diodes_SMD:D_1206 (layer F.Cu) (tedit 59DE3AF2) (tstamp 59DDBB70)
     (at 111.506 80.01 270)
     (descr "Diode SMD 1206, reflow soldering http://datasheets.avx.com/schottky.pdf")
     (tags "Diode 1206")
@@ -1156,7 +1156,7 @@
     (fp_text reference D3 (at 0 -1.8 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D_TVS (at 0 1.9 270) (layer F.Fab)
+    (fp_text value D_TVS (at 0 1.9 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.8 270) (layer F.Fab)
@@ -1190,7 +1190,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-323 (layer F.Cu) (tedit 58641739) (tstamp 59DDBB7C)
+  (module Diodes_SMD:D_SOD-323 (layer F.Cu) (tedit 59DE3AA8) (tstamp 59DDBB7C)
     (at 106.426 120.87 270)
     (descr SOD-323)
     (tags SOD-323)
@@ -1199,7 +1199,7 @@
     (fp_text reference D5 (at 0 -1.85 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D_Schottky_Small (at 0.1 1.9 270) (layer F.Fab)
+    (fp_text value D_Schottky_Small (at 0.1 1.9 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.85 270) (layer F.Fab)
@@ -1233,7 +1233,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-323 (layer F.Cu) (tedit 58641739) (tstamp 59DDBB82)
+  (module Diodes_SMD:D_SOD-323 (layer F.Cu) (tedit 59DE3AB4) (tstamp 59DDBB82)
     (at 110.71 139.7)
     (descr SOD-323)
     (tags SOD-323)
@@ -1242,7 +1242,7 @@
     (fp_text reference D6 (at 0 -1.85) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D_Schottky_Small (at 0.1 1.9) (layer F.Fab)
+    (fp_text value D_Schottky_Small (at 0.1 1.9) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.85) (layer F.Fab)
@@ -1276,7 +1276,7 @@
     )
   )
 
-  (module Inductors_SMD:L_1206 (layer F.Cu) (tedit 58307BE8) (tstamp 59DDBBFA)
+  (module Inductors_SMD:L_1206 (layer F.Cu) (tedit 59DE3ABE) (tstamp 59DDBBFA)
     (at 104.394 138.684)
     (descr "Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 1206")
@@ -1285,7 +1285,7 @@
     (fp_text reference L1 (at 0 -2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 22uH (at 0 2.3) (layer F.Fab)
+    (fp_text value 22uH (at 0 2.3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -1312,7 +1312,7 @@
     )
   )
 
-  (module Connectors_JST:JST_EH_B02B-EH-A_02x2.50mm_Straight (layer F.Cu) (tedit 58A3B0B5) (tstamp 59DDBC00)
+  (module Connectors_JST:JST_EH_B02B-EH-A_02x2.50mm_Straight (layer F.Cu) (tedit 59DE3AC8) (tstamp 59DDBC00)
     (at 112.308 148.336)
     (descr "JST EH series connector, B02B-EH-A, 2.50mm pitch, top entry")
     (tags "connector jst eh top vertical straight")
@@ -1320,7 +1320,7 @@
     (fp_text reference P3 (at 1.25 -3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 12V_IN (at 1.25 3.5) (layer F.Fab)
+    (fp_text value 12V_IN (at 1.25 3.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 1.25 -3) (layer F.Fab)
@@ -1362,7 +1362,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59DDBC07)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 59DE3AA2) (tstamp 59DDBC07)
     (at 93.919 109.966 270)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -1371,7 +1371,7 @@
     (fp_text reference Q1 (at 0 -2.5 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2SC1945 (at 0 2.5 270) (layer F.Fab)
+    (fp_text value 2SC1945 (at 0 2.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at -0.111 0.066 360) (layer F.Fab)
@@ -1403,7 +1403,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59DDBC0E)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 59DE3A9E) (tstamp 59DDBC0E)
     (at 86.376 117.668 180)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -1412,7 +1412,7 @@
     (fp_text reference Q2 (at 0 -2.5 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2SC1945 (at 0 2.5 180) (layer F.Fab)
+    (fp_text value 2SC1945 (at 0 2.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 360) (layer F.Fab)
@@ -1957,7 +1957,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59DDBD6A)
+  (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 59DE3ACE) (tstamp 59DDBD6A)
     (at 129.794 148.844)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
@@ -1966,7 +1966,7 @@
     (fp_text reference U6 (at 0 -2.9) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MCP73831 (at 0 2.9) (layer F.Fab)
+    (fp_text value MCP73831 (at 0 2.9) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -2000,13 +2000,13 @@
     )
   )
 
-  (module footprint:SP1001 (layer F.Cu) (tedit 59DD045C) (tstamp 59DDBD84)
+  (module footprint:SP1001 (layer F.Cu) (tedit 59DE3A6A) (tstamp 59DDBD84)
     (at 149.606 91.313 270)
     (path /59DDC248/59DD1ECF)
     (fp_text reference U8 (at -1.27 1.27 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SP1001 (at -6.985 1.27 360) (layer F.Fab)
+    (fp_text value SP1001 (at -6.985 1.27 360) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -6.35 3.175) (end -6.35 -0.635) (layer F.SilkS) (width 0.15))
@@ -2102,7 +2102,7 @@
       (net 3 GND))
   )
 
-  (module TO_SOT_Packages_SMD:TO-252-5_TabPin3 (layer F.Cu) (tedit 590079C0) (tstamp 59DDC76F)
+  (module TO_SOT_Packages_SMD:TO-252-5_TabPin3 (layer F.Cu) (tedit 59DE3AC2) (tstamp 59DDC76F)
     (at 113.29 125.086 90)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/")
     (tags "DPAK TO-252 DPAK-5 TO-252-5")
@@ -2111,7 +2111,7 @@
     (fp_text reference U4 (at 0 -4.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LM2596 (at 0 4.5 90) (layer F.Fab)
+    (fp_text value LM2596 (at 0 4.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 3.95 -2.7) (end 4.95 -2.7) (layer F.Fab) (width 0.1))
@@ -2177,7 +2177,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:TO-263-3_TabPin2 (layer F.Cu) (tedit 590079C0) (tstamp 59DDC77B)
+  (module TO_SOT_Packages_SMD:TO-263-3_TabPin2 (layer F.Cu) (tedit 59DE3AD6) (tstamp 59DDC77B)
     (at 130.048 129.607 90)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
@@ -2186,7 +2186,7 @@
     (fp_text reference U5 (at 0 -6.65 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TC1264 (at 0 6.65 90) (layer F.Fab)
+    (fp_text value TC1264 (at 0 6.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 6.5 -5) (end 7.5 -5) (layer F.Fab) (width 0.1))
@@ -2242,14 +2242,14 @@
     )
   )
 
-  (module footprint:sim800c (layer F.Cu) (tedit 55D664AE) (tstamp 59DDE487)
+  (module footprint:sim800c (layer F.Cu) (tedit 59DE39B3) (tstamp 59DDE487)
     (at 131.328 89.538 90)
     (tags "simcom, gsm, gprs")
     (path /59DDC248/59DD1931)
     (fp_text reference U3 (at 1.1 12.1 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
-    (fp_text value SIM800C-RESCUE-esp32-gateway-hw (at 1.1 -11.025 90) (layer F.Fab)
+    (fp_text value SIM800C-RESCUE-esp32-gateway-hw (at 1.1 -11.025 90) (layer F.Fab) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_line (start 6.75 -7.65) (end 4.6 -7.65) (layer F.SilkS) (width 0.15))
@@ -2361,7 +2361,7 @@
     )
   )
 
-  (module footprint:Tact_Switch_TS6X3.6 (layer F.Cu) (tedit 582AB3AF) (tstamp 59DDEB70)
+  (module footprint:Tact_Switch_TS6X3.6 (layer F.Cu) (tedit 59DE3A63) (tstamp 59DDEB70)
     (at 116.078 82.55 90)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
@@ -2370,7 +2370,7 @@
     (fp_text reference SW1 (at 0.01011 -2.60022 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SW_Push (at 0 3 90) (layer F.Fab)
+    (fp_text value SW_Push (at 0 3 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.23989 -0.55022) (end 1.26011 -0.55022) (layer F.SilkS) (width 0.15))
@@ -2396,7 +2396,7 @@
     )
   )
 
-  (module Inductors_SMD:L_6.3x6.3_H3 (layer F.Cu) (tedit 5990349C) (tstamp 59DDF505)
+  (module Inductors_SMD:L_6.3x6.3_H3 (layer F.Cu) (tedit 59DE3ADC) (tstamp 59DDF505)
     (at 118.618 140.208)
     (descr "Choke, SMD, 6.3x6.3mm 3mm height")
     (tags "Choke SMD")
@@ -2405,7 +2405,7 @@
     (fp_text reference L2 (at 0 -4.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 33uH (at 0 4.45) (layer F.Fab)
+    (fp_text value 33uH (at 0 4.45) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -2440,7 +2440,7 @@
     )
   )
 
-  (module Capacitors_SMD:CP_Elec_4x4.5 (layer F.Cu) (tedit 58AA85E3) (tstamp 59DDF52C)
+  (module Capacitors_SMD:CP_Elec_4x4.5 (layer F.Cu) (tedit 59DE3AF4) (tstamp 59DDF52C)
     (at 99.06 79.756 180)
     (descr "SMT capacitor, aluminium electrolytic, 4x4.5")
     (path /59DDC323/59DC7609)
@@ -2448,7 +2448,7 @@
     (fp_text reference 220uF1 (at 0 3.58 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CP (at 0 -3.45 360) (layer F.Fab)
+    (fp_text value CP (at 0 -3.45 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 0.1 2.1) (layer F.Fab) (width 0.1))
@@ -2490,7 +2490,7 @@
     )
   )
 
-  (module Diodes_SMD:D_SOD-323 (layer F.Cu) (tedit 58641739) (tstamp 59DDF63C)
+  (module Diodes_SMD:D_SOD-323 (layer F.Cu) (tedit 59DE3AD2) (tstamp 59DDF63C)
     (at 131.572 140.716 180)
     (descr SOD-323)
     (tags SOD-323)
@@ -2499,7 +2499,7 @@
     (fp_text reference D9 (at 0 -1.85 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D_Schottky_Small (at 0.1 1.9 180) (layer F.Fab)
+    (fp_text value D_Schottky_Small (at 0.1 1.9 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.85 180) (layer F.Fab)
@@ -2533,7 +2533,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23_Handsoldering (layer F.Cu) (tedit 58CE4E7E) (tstamp 59DDF643)
+  (module TO_SOT_Packages_SMD:SOT-23_Handsoldering (layer F.Cu) (tedit 59DE3ACC) (tstamp 59DDF643)
     (at 123.19 147.042 90)
     (descr "SOT-23, Handsoldering")
     (tags SOT-23)
@@ -2542,7 +2542,7 @@
     (fp_text reference U7 (at 0 -2.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MOSFET-P (at 0 2.5 90) (layer F.Fab)
+    (fp_text value MOSFET-P (at 0 2.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -2574,7 +2574,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59DE04A7)
+  (module Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm (layer F.Cu) (tedit 59DE3A10) (tstamp 59DE04A7)
     (at 91.44 78.232 270)
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x06 2.54mm single row")
@@ -2582,7 +2582,7 @@
     (fp_text reference J1 (at 0 -2.33 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x06 (at 0 15.03 270) (layer F.Fab)
+    (fp_text value Conn_01x06 (at 0 15.03 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.635 -1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))
@@ -2622,7 +2622,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59DDBBF4)
+  (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59DE3A6F) (tstamp 59DDBBF4)
     (at 116.078 113.284 180)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -2630,7 +2630,7 @@
     (fp_text reference J7 (at 0 -2.33 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X04 (at 0 9.95 180) (layer F.Fab)
+    (fp_text value CONN_01X04 (at 0 9.95 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.635 -1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))
@@ -2666,7 +2666,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59DDBAEC)
+  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59DE3AE0) (tstamp 59DDBAEC)
     (at 141.478 148.082 90)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
@@ -2674,7 +2674,7 @@
     (fp_text reference BT1 (at 0 -2.33 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Battery (at 0 4.87 90) (layer F.Fab)
+    (fp_text value Battery (at 0 4.87 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.635 -1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))
@@ -2706,7 +2706,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch1.00mm (layer F.Cu) (tedit 59B55814) (tstamp 59DE2623)
+  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch1.00mm (layer F.Cu) (tedit 59DE3A67) (tstamp 59DE2623)
     (at 147.59 79.756 90)
     (descr "Through hole straight pin header, 1x02, 1.00mm pitch, single row")
     (tags "Through hole pin header THT 1x02 1.00mm single row")
@@ -2714,7 +2714,7 @@
     (fp_text reference J5 (at 0 -1.56 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ANTEN (at 0 2.56 90) (layer F.Fab)
+    (fp_text value ANTEN (at 0 2.56 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.3175 -0.5) (end 0.635 -0.5) (layer F.Fab) (width 0.1))
@@ -2748,7 +2748,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59DDBBAB)
+  (module Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm (layer F.Cu) (tedit 59DE3A16) (tstamp 59DDBBAB)
     (at 80.01 128.27 180)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
@@ -2756,7 +2756,7 @@
     (fp_text reference J3 (at 0 -2.33 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x05 (at 0 12.49 180) (layer F.Fab)
+    (fp_text value Conn_01x05 (at 0 12.49 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.635 -1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))

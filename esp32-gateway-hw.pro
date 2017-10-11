@@ -1,4 +1,4 @@
-update=Thứ tư, 11 Tháng mười Năm 2017 12:13:55 ICT
+update=Thứ tư, 11 Tháng mười Năm 2017 22:25:44 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -138,3 +138,13 @@ LibName106=lib/footprint.pretty/neo-6m
 LibName107=lib/Sim800c
 LibName108=lib/sim_card_holder
 LibName109=lib/sp1001
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
